@@ -48,7 +48,7 @@
  *  @return 文件路径
  */
 -(NSURL *)getNetworkUrl{
-    NSString *urlStr=@"http://192.168.1.161/The New Look of OS X Yosemite.mp4";
+    NSString *urlStr=@"http://192.168.11.114/tutu.mp4";
     urlStr=[urlStr stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
     NSURL *url=[NSURL URLWithString:urlStr];
     return url;
